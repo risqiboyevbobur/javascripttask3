@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.loading-text {
+  font-size: 50px;
+  color: rgb(255, 253, 253);
+}
+
+.backgroundImage {
+  position: absolute;
+  background: url(https://pro-dachnikov.com/uploads/posts/2021-10/1633817294_109-p-foto-domik-na-ostrove-foto-116.jpg);
+  background-repeat: no-repeat;
+  left: -30px;
+  background-size: cover;
+  z-index: -1;
+  top: -30px;
+  width: calc(100vw + 60px);
+  fill:blue(10px);
+  height: calc(100vh + 60px);
+}
+
